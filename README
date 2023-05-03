@@ -1,11 +1,38 @@
-Six-Degrees-of-Kevin-Bacon: A C++ Graph-based Movie Connection Solver
+Six-Degrees-of-Kevin-Bacon is an efficient C++ program designed to solve the famous "Six Degrees of Kevin Bacon" game. By leveraging graph data structures and Breadth-First Search algorithms, the program parses large datasets of movie credits from IMDB and computes the shortest path between any two given actors, highlighting their connections through shared movies.
 
-This repository contains an efficient and user-friendly C++ program designed to solve the famous "Six Degrees of Kevin Bacon" game. By leveraging graph data structures and Breadth-First Search algorithms, the program parses large datasets of movie credits from IMDB and computes the shortest path between any two given actors, highlighting their connections through shared movies.
-
-Key Features:
-
+Key Features
 Efficient graph representation and search algorithms for fast processing of complex input files.
 Parses and processes large datasets of movie credits (over 100,000 movies and actors).
 Provides a versatile tool for users to discover connections between actors and explore the movie industry landscape.
 Includes sample input and output files for testing and demonstration purposes.
-Get ready to dive into the world of movie connections and enhance your pop culture knowledge with this powerful and intriguing tool!
+Getting Started
+These instructions will help you set up and run the program on your local machine.
+
+Prerequisites
+To run this program, you will need a C++ compiler (supporting C++11 or later) and the make utility.
+
+Running the Program
+Clone the repository:
+
+bash
+git clone https://github.com/yourusername/Six-Degrees-of-Kevin-Bacon.git
+
+Change to the project directory:
+cd Six-Degrees-of-Kevin-Bacon
+
+Compile the program using the provided Makefile:
+
+make
+
+This will create an executable file named sixdegrees.
+
+Run the program with the input and output file as command-line arguments:
+
+./sixdegrees input_file.txt output_file.txt
+Replace input_file.txt with the path to your input file and output_file.txt with the desired path for the output file.
+
+Contributing
+Contributions, bug reports, and feature requests are welcome! Feel free to open an issue or submit a pull request on GitHub.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
