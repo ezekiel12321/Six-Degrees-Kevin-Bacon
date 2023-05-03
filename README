@@ -1,4 +1,4 @@
-Six-Degrees-of-Kevin-Bacon is an efficient C++ program designed to solve the famous "Six Degrees of Kevin Bacon" game. By leveraging graph data structures and Breadth-First Search algorithms, the program parses large datasets of movie credits from IMDB and computes the shortest path between any two given actors, highlighting their connections through shared movies.
+**Six-Degrees-of-Kevin-Bacon is an efficient C++ program designed to solve the famous "Six Degrees of Kevin Bacon" game. By leveraging graph data structures and Breadth-First Search algorithms, the program parses large datasets of movie credits from IMDB and computes the shortest path between any two given actors, highlighting their connections through shared movies.**
 
 Key Features
 Efficient graph representation and search algorithms for fast processing of complex input files.
