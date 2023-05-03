@@ -1,0 +1,11 @@
+Six-Degrees-of-Kevin-Bacon: A C++ Graph-based Movie Connection Solver
+
+This repository contains an efficient and user-friendly C++ program designed to solve the famous "Six Degrees of Kevin Bacon" game. By leveraging graph data structures and Breadth-First Search algorithms, the program parses large datasets of movie credits from IMDB and computes the shortest path between any two given actors, highlighting their connections through shared movies.
+
+Key Features:
+
+Efficient graph representation and search algorithms for fast processing of complex input files.
+Parses and processes large datasets of movie credits (over 100,000 movies and actors).
+Provides a versatile tool for users to discover connections between actors and explore the movie industry landscape.
+Includes sample input and output files for testing and demonstration purposes.
+Get ready to dive into the world of movie connections and enhance your pop culture knowledge with this powerful and intriguing tool!
